@@ -1,0 +1,34 @@
+body{
+    background-image:url(img/bg.jpg);
+}
+
+#twtlinkinp{
+    float: left;
+    margin-left:450px;
+    margin-top: 170px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#team{
+    color: white;
+    margin-left: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#name{
+    color: white;
+    margin-left: 585px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#present{
+    color: white;
+    margin-left: 600px;
+}
+
+#subbtn{
+    float: left;
+    margin-left: 20px;
+    margin-top: 170px;
+    padding: 20px;
+}
