@@ -2,13 +2,14 @@
 import sqlite3 as sql
 import time
 
-import lib.classifier as classifier
+from.lib.classifier import categorize_data
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
-from lib.factapi import factApi
-from lib.reporter import report
-from lib.scraper import scrap
+
+from.lib.factapi import factApi
+from.lib.reporter import report
+from.lib.scraper import scrap
 
 
 class Prodx:
@@ -45,6 +46,6 @@ class Prodx:
                 dbcon.close()
 
             factData = factApi(data['tag'])
-            categorized_dataset = classifier.categorize_data(factData)
+            categorized_dataset = categorize_data(factData)
             report(categorized_dataset,data['content'])
         return HttpResponseRedirect('/')

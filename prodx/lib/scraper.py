@@ -1,5 +1,6 @@
 import tweepy
-from credential import (access_token, access_token_secret, consumer_key,
+
+from.credential import (access_token, access_token_secret, consumer_key,
                         consumer_secret)
 
 # X API authorization using consumer key and consumer secret

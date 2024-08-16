@@ -6,7 +6,8 @@ import nltk
 import pandas as pd
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
-from phishing import simul
+
+from.phishing import simul
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.metrics import accuracy_score, precision_score
 from sklearn.model_selection import train_test_split
