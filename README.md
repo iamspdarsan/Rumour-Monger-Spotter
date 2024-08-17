@@ -248,7 +248,6 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 #### Topics
 
 <ul id="keywords">
-<li>misinformation</li>
 <li>twitter</li>
 <li>fact-checking</li>
 <li>naive-bayes</li>
