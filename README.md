@@ -1,50 +1,26 @@
 <div align="center">
 
-# [Title] - [short desc]
+# Rumour Monger Spotter - Detecting Misinformation on Twitter
 
-<p id="intro">[This is a placeholder paragraph. Here some introductory text or describe the content that will eventually go in this section. This text is meant to give a sense of how the final content will look in the design.]
-</p>
+<p id="intro">Rumour Monger Spotter is a prototype developed during a national-level cyber hackathon to identify false information on Twitter. Using the Google Fact Check API and a Multinomial Naive Bayes classifier, the tool analyzes tweet content to assess the likelihood of misinformation. Despite a development window of less than 24 hours, the project won a trophy for its unique approach in a competition with 150+ teams.</p>
 
 ### Supported Platforms
 
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)]()
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()
-[![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)]()
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]()
 
 ---
-
-[uname-holder/reponame-holder] [npm-name-holder] [wf-holder] - for test&build
 
 <p>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/commits/main">
-    <img src="https://img.shields.io/github/last-commit/uname-holder/reponame-holder?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
+  <a href="https://github.com/darsan-in/Rumour-Monger-Spotter/commits/main">
+    <img src="https://img.shields.io/github/last-commit/darsan-in/Rumour-Monger-Spotter?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
   </a>
 </span>
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/github/commit-activity/m/uname-holder/reponame-holder?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
-  </a>
-</span>
-
-</p>
-
-<p>
-
-<span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Build%20Status" alt="GitHub Actions Build Status"/>
-  </a>
-</span>
-
-<span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Test%20Status" alt="GitHub Actions Test Status"/>
+    <img src="https://img.shields.io/github/commit-activity/m/darsan-in/Rumour-Monger-Spotter?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
   </a>
 </span>
 
@@ -56,13 +32,13 @@
 
 <span>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/uname-holder/reponame-holder?style=for-the-badge&label=License" alt="GitHub License"/>
+    <img src="https://img.shields.io/github/license/darsan-in/Rumour-Monger-Spotter?style=for-the-badge&label=License" alt="GitHub License"/>
   </a>
 </span>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/releases">
-    <img src="https://img.shields.io/github/v/release/uname-holder/reponame-holder?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
+  <a href="https://github.com/darsan-in/Rumour-Monger-Spotter/releases">
+    <img src="https://img.shields.io/github/v/release/darsan-in/Rumour-Monger-Spotter?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
   </a>
 </span>
 
@@ -71,8 +47,8 @@
 <p>
 
 <span>
-  <a href="https://www.codefactor.io/repository/github/uname-holder/reponame-holder/issues/main">
-    <img src="https://img.shields.io/codefactor/grade/github/uname-holder/reponame-holder?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
+  <a href="https://www.codefactor.io/repository/github/darsan-in/Rumour-Monger-Spotter/issues/main">
+    <img src="https://img.shields.io/codefactor/grade/github/darsan-in/Rumour-Monger-Spotter?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
   </a>
 </span>
 
@@ -84,21 +60,9 @@
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/npm/d18m/npm-name-holder?style=for-the-badge&label=Downloads%20On%20NPM" alt="NPM Downloads"/>
+    <img src="https://img.shields.io/github/stars/darsan-in/Rumour-Monger-Spotter?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
   </a>
 </span>
-
-<span>
-  <a href="">
-    <img src="https://img.shields.io/github/stars/uname-holder/reponame-holder?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
-  </a>
-</span>
-
-</p>
-
----
-
-<p>
 
 <span>
   <a href="https://github.com/sponsors/darsan-in">
@@ -118,27 +82,30 @@
 - [Use Cases](#use-cases-)
 - [Friendly request to users](#-friendly-request-to-users)
 
-- [Installation - Step-by-Step Guide](#installation---step-by-step-guide-)
 - [Usage](#usage)
 - [In-Action](#in-action-)
 
 - [License](#license-%EF%B8%8F)
 - [Contributing to Our Project](#contributing-to-our-project-)
-- [Website](#website-)
 
 - [Contact Information](#contact-information)
-- [Credits](#credits-)
 
 ## Features and Benefits ✨
 
-- [f1]
-- [f2]
-- [fn]
+- **Twitter Content Analysis**: Extracts and processes tweet content to identify potential misinformation.
+- **Google Fact Check Integration**: Leverages the Google Fact Check API to verify the truthfulness of information in tweets.
+- **Machine Learning Classification**: Uses a Multinomial Naive Bayes classifier to predict the likelihood of a tweet being false.
+- **Contextual Tag Extraction**: Analyzes tweet tags to understand the context and content more accurately.
+- **False vs. True Ratio Calculation**: Calculates the ratio of true to false information within a tweet to provide a likelihood score.
+- **Rapid Prototyping**: Developed in under 24 hours, demonstrating feasibility under extreme time constraints.
 
 ## Use Cases ✅
 
-- [usecase 1]
-- [use case 2]
+- **Misinformation Detection**: Identifying false information in tweets for fact-checkers and social media platforms.
+- **Content Moderation**: Assisting platforms in moderating and flagging potential misinformation.
+- **Academic Research**: Providing a foundation for further research into misinformation detection algorithms.
+- **Hackathon Prototyping**: Serving as a proof of concept in rapid development scenarios.
+- **AI and NLP Education**: Demonstrating the application of AI and natural language processing techniques in real-world scenarios.
 
 ---
 
@@ -156,32 +123,43 @@ Thank you for being part of this journey. Your support means the world to us. �
 
 ---
 
-## Installation - Step-by-Step Guide 🪜
-
-[Installation instructions here]
-
-- **Step 1:**
-- **Step 2:**
-- **Step 3:**
-- **Step 4:**
-- **Step 5:**
-
 ## Usage
 
-- [purpose heading]
-  [Demonstration here]
+- **Step 1:** Install Python, it's not already installed.
+
+- **Step 2:** Clone this repository and open it in VS Code or any IDE.
 
 ```bash
-demo
+git clone https://github.com/darsan-in/Rumour-Monger-Spotter.git
 ```
+
+- **Step 3:** Open terminal and run batch script to resolve requirements.
+
+```bash
+requirements
+```
+
+- **Step 4:** Before running program, you have to get your credential for Google Fact API and Twitter API, then add them into `prodx/lib/credential.py`.
+
+- **Step 5:** Now you can run the program.
+
+```bash
+run
+```
+
+- **Step 6:** Click to open the link that showing in the terminal window.
+
+- **Step 7:** Paste any tweet link in application text box input.
+
+- **Step 8:** Results would be shown in terminal window.
 
 ## In-Action 🤺
 
-[video] or [gif] or [image]
+![home page of trackx](image.png)
 
 ## License ©️
 
-This project is licensed under the [Apache License 2.0 or GNU General Public License v3.0 or MIT](LICENSE).
+This project is licensed under the [MIT](LICENSE).
 
 ## Contributing to Our Project 🤝
 
@@ -195,17 +173,9 @@ We deeply appreciate everyone who contributes or raises issues—your efforts ar
 
 Thank you for being part of this journey!
 
-## Website 🌐
-
-<a id="url" href="https://darsan.in">[https://darsan.in]</a>
-
 ## Contact Information
 
 For any questions, please reach out via hello@darsan.in or [LinkedIn](https://www.linkedin.com/in/darsan-in/).
-
-## Credits 🙏🏻
-
-[credits to lib maintainers/creators]
 
 ---
 
@@ -278,10 +248,19 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 #### Topics
 
 <ul id="keywords">
-
-<li>A</li>
-<li>B</li>
-<li>C</li>
-<li>D</li>
-
+<li>misinformation</li>
+<li>twitter</li>
+<li>fact-checking</li>
+<li>naive-bayes</li>
+<li>hackathon</li>
+<li>real-time-analysis</li>
+<li>natural-language-processing</li>
+<li>social-media</li>
+<li>AI</li>
+<li>text-classification</li>
+<li>prototype</li>
+<li>india</li>
+<li>national-competition</li>
+<li>data-analysis</li>
+<li>tweet-content</li>
 </ul>
